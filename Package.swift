@@ -3,13 +3,13 @@ import PackageDescription
 
 let package = Package(
     name: "FullAuthRFID",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "FullAuthRFID",
-            targets: ["FullAuthRFID"]),
+            targets: ["FullAuthRFIDBeta"]),
     ],
     targets: [
-        .binaryTarget(name: "FullAuthRFID", url: "https://pods.regulaforensics.com/FullAuthRFID/7.7.12011/DocumentReaderCore_fullauthrfid_7.7.12011.zip", checksum: "26e33a1a9e75d93c122e61706b364ba0930028e7b1608cdc5869e243c4832878"),
+        .binaryTarget(name: "FullAuthRFIDBeta", url: "https://pods.regulaforensics.com/FullAuthRFIDBeta/7.6.11757/DocumentReaderCoreBeta_fullauthrfid_7.6.11757.zip", checksum: "8c49d5dea7b5b0094ae9ee2e39c651e7e08bc8f6d6572da16aa71b36240b50c2"),
     ]
 )
