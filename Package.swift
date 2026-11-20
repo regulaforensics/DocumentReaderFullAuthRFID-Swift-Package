@@ -7,12 +7,12 @@ let package = Package(
     products: [
         .library(
             name: "FullAuthRFID",
-            targets: ["FullAuthRFIDNightly"]),
+            targets: ["FullAuthRFIDStage"]),
     ],
     targets: [
         .binaryTarget(
-            name: "FullAuthRFIDNightly",
-            url: "https://pods.regulaforensics.com/Nightly/FullAuthRFIDNightly/9.11.21743/DocumentReaderCoreNightly_fullauthrfid_9.11.21743.zip",
-            checksum: "acc4b5b500a4e0cf8a0bb26a8921617d46aa79078184d4e2885b90d07e375372"),
+            name: "FullAuthRFIDStage",
+            url: "https://pods.regulaforensics.com/Stage/FullAuthRFIDStage/9.11.21757/DocumentReaderCoreStage_fullauthrfid_9.11.21757.zip",
+            checksum: "d9d0114afac96d587c1a0bc8bf0a3ebff0055818ea1d646c225bea040a002a1c"),
     ]
 )
